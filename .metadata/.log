@@ -110,6 +110,7 @@ Binding(CTRL+D,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.jdt.core 2 0 2025-06-27 16:17:06.220
 !MESSAGE Java Index broken - will be automatically deleted to repair: file:/C:/DevData/project404Not/.metadata/.plugins/org.eclipse.jdt.core/1192123121.index
@@ -246,3 +247,5 @@ java.io.FileNotFoundException: C:\DevData\project404Not\.metadata\.plugins\org.e
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 =======
 >>>>>>> origin/main
+=======
+>>>>>>> ac45090bc4408287c85bf0559494302cf26d4457

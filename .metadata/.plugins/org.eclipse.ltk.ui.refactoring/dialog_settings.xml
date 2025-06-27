@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="RefactoringWizard.preview">
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<item key="width" value="490"/>
 		<item key="height" value="301"/>
 	</section>
@@ -18,5 +19,9 @@
 		<item key="width" value="600"/>
 		<item key="height" value="400"/>
 >>>>>>> origin/main
+=======
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+>>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 	</section>
 </section>

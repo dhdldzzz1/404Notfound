@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry loc="C:\Dev\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529" stamp="1741221876000"/>
     <entry loc="C:\Dev\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre" stamp="1741221876000"/>
     <entry loc="C:\Dev\jdk-21" stamp="1691613824000"/>
@@ -9,4 +10,9 @@
     <entry loc="C:\Dev\sts-4.30.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre" stamp="1744944056000"/>
     <entry loc="C:\Dev\jdk-21" stamp="1743227719239"/>
 >>>>>>> origin/main
+=======
+    <entry loc="C:\Dev\sts-4.30.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529" stamp="1744944056000"/>
+    <entry loc="C:\Dev\sts-4.30.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre" stamp="1744944056000"/>
+    <entry loc="C:\Dev\jdk-21" stamp="1743227719239"/>
+>>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 </dirs>

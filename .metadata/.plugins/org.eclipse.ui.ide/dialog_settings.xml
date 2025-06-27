@@ -6,12 +6,17 @@
 		<item value="org.eclipse.egit.gitflow.feature:7.2.0.202503040940-r"/>
 		<item value="org.eclipse.egit:7.2.0.202503040940-r"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<item value="org.eclipse.emf.common:2.35.0.v20250401-0947"/>
 		<item value="org.eclipse.emf.ecore:2.40.0.v20250414-1351"/>
 =======
 		<item value="org.eclipse.emf.common:2.34.0.v20241204-1554"/>
 		<item value="org.eclipse.emf.ecore:2.39.0.v20241018-1213"/>
 >>>>>>> origin/main
+=======
+		<item value="org.eclipse.emf.common:2.34.0.v20241204-1554"/>
+		<item value="org.eclipse.emf.ecore:2.39.0.v20241018-1213"/>
+>>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 		<item value="org.eclipse.epp.mpc:1.12.0.v20250130-1529"/>
 		<item value="org.eclipse.help:2.3.2100.v20250228-0140"/>
 		<item value="org.eclipse.jdt:3.20.100.v20250228-0140"/>
@@ -47,6 +52,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+<<<<<<< HEAD
 <<<<<<< HEAD
 			<item value="C:\DevData\project404Not\404NotFound"/>
 			<item value="C:\DevData\SpringBoot\B09aSecurity"/>
@@ -108,6 +114,8 @@
 			<item key="DIALOG_HEIGHT" value="500"/>
 			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 =======
+=======
+>>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 			<item value="C:\Users\Yunah\Downloads\project404Not-main\404NotFound"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
@@ -116,7 +124,10 @@
 			<item key="DIALOG_WIDTH" value="938"/>
 			<item key="DIALOG_HEIGHT" value="726"/>
 			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 		</section>
 	</section>
 </section>

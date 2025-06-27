@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<section name="WorkbenchPreferenceDialog.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="6"/>
 		<item key="DIALOG_Y_ORIGIN" value="6"/>
@@ -59,6 +60,8 @@
 			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 		</section>
 =======
+=======
+>>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
@@ -73,6 +76,9 @@
 		<item key="DIALOG_WIDTH" value="884"/>
 		<item key="DIALOG_HEIGHT" value="731"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+<<<<<<< HEAD
 >>>>>>> origin/main
+=======
+>>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 	</section>
 </section>
