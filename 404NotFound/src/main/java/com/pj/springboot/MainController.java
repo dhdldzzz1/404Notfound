@@ -12,4 +12,9 @@ public class MainController
 		return "home";
 	}
 	
+	public String ASDF()
+	{
+		return "ASDF";
+	}
+	
 }
