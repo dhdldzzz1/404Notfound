@@ -1,67 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-<<<<<<< HEAD
-<<<<<<< HEAD
-	<section name="WorkbenchPreferenceDialog.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="6"/>
-		<item key="DIALOG_Y_ORIGIN" value="6"/>
-		<item key="DIALOG_WIDTH" value="875"/>
-		<item key="DIALOG_HEIGHT" value="852"/>
-		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
-	</section>
-	<section name="org.eclipse.ui.preferences.keysPreferencePage">
-	</section>
-	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
-		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
-		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.eclipse.buildship.ui.importwizards"/>
-		</list>
-		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-		</list>
-		<section name="ImportExportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="464"/>
-			<item key="DIALOG_Y_ORIGIN" value="102"/>
-			<item key="DIALOG_WIDTH" value="884"/>
-			<item key="DIALOG_HEIGHT" value="550"/>
-			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
-		</section>
-	</section>
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.wst.jsdt.ui.java"/>
-			<item value="org.eclipse.wst.server.ui"/>
-			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
-			<item value="org.eclipse.wst.XMLCategory"/>
-			<item value="org.eclipse.ui.Examples"/>
-		</list>
-		<section name="NewWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="-6"/>
-			<item key="DIALOG_Y_ORIGIN" value="0"/>
-			<item key="DIALOG_WIDTH" value="731"/>
-			<item key="DIALOG_HEIGHT" value="500"/>
-			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
-		</section>
-	</section>
-	<section name="ZipFileExportWizard">
-		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
-		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
-		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
-			<item value="C:\Users\baboy\OneDrive\바탕 화면\숙제.zip"/>
-		</list>
-		<section name="ZipFileExportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="464"/>
-			<item key="DIALOG_Y_ORIGIN" value="102"/>
-			<item key="DIALOG_WIDTH" value="884"/>
-			<item key="DIALOG_HEIGHT" value="604"/>
-			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
-		</section>
-=======
-=======
->>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
@@ -69,16 +7,5 @@
 		</list>
 		<section name="ImportExportWizard.dialogBounds">
 		</section>
-	</section>
-	<section name="WorkbenchPreferenceDialog.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="84"/>
-		<item key="DIALOG_Y_ORIGIN" value="122"/>
-		<item key="DIALOG_WIDTH" value="884"/>
-		<item key="DIALOG_HEIGHT" value="731"/>
-		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
-<<<<<<< HEAD
->>>>>>> origin/main
-=======
->>>>>>> ac45090bc4408287c85bf0559494302cf26d4457
 	</section>
 </section>
