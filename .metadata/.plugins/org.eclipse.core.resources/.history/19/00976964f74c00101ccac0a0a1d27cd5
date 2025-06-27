@@ -1,0 +1,6 @@
+package com.edu.springboot;
+
+public class WebCorsConfig
+{
+
+}

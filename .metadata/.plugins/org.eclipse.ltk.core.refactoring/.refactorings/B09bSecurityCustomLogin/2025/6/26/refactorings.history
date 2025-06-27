@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MainController.java&apos; to &apos;Ex42_Security_SocialLogin/src/main/java/com.edu.springboot&apos;&#x0D;&#x0A;- Original project: &apos;B09bSecurityCustomLogin&apos;&#x0D;&#x0A;- Destination element: &apos;Ex42_Security_SocialLogin/src/main/java/com.edu.springboot&apos;&#x0D;&#x0A;- Original element: &apos;com.edu.springboot.MainController.java&apos;" description="Copy compilation unit" destination="=Ex42_Security_SocialLogin/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.edu.springboot" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.edu.springboot{MainController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1750726330906" units="1" version="1.0"/>
+</session>

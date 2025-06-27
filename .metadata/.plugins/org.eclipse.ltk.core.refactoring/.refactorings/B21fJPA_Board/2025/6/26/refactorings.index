@@ -1,0 +1,10 @@
+1750832042577	Rename type 'B21eJPQLApplication'
+1750832045143	Rename type 'B21eJPQLApplicationTests'
+1750832060582	Rename type 'B21fJPA_BoardApplication'
+1750832063088	Rename type 'B21fJPA_BoardApplicationTests'
+1750832185395	Rename type 'Member'
+1750833785095	Rename type 'MemberRepository'
+1750833897902	Rename type 'MemberService'
+1750834368534	Delete elements
+1750834371349	Rename resource 'member_list.jsp'
+1750835406011	Rename resource 'home.jsp'

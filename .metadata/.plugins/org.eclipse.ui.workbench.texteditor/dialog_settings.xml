@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="true"/>
+		<list key="findhistory">
+			<item value="memberService"/>
+			<item value="memberRepository"/>
+			<item value="notebook"/>
+			<item value="BoardDTO"/>
+			<item value="orinalFileName"/>
+			<item value="rename"/>
+		</list>
+		<list key="replacehistory">
+			<item value="boardService"/>
+			<item value="boardRepository"/>
+			<item value="MVCBoardDTO"/>
+			<item value="originalFileName"/>
+		</list>
+	</section>
+</section>
