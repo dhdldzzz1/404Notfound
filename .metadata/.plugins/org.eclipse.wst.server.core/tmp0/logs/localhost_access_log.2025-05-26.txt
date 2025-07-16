@@ -1,4 +1,0 @@
-127.0.0.1 - - [26/May/2025:10:17:16 +0900] "GET / HTTP/1.1" 404 808
-0:0:0:0:0:0:0:1 - - [26/May/2025:10:17:17 +0900] "GET /MustHHaveJSP/08Board/homework/boardWrite.html HTTP/1.1" 200 9390
-0:0:0:0:0:0:0:1 - - [26/May/2025:10:17:17 +0900] "GET /favicon.ico HTTP/1.1" 404 819
-0:0:0:0:0:0:0:1 - - [26/May/2025:10:17:19 +0900] "GET /MustHHaveJSP/06Session/LoginForm.jsp HTTP/1.1" 200 2515

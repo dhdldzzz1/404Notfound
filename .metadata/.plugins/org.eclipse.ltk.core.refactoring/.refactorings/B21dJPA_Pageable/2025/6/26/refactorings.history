@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 5 elements from project &apos;B21dJPA_Pageable&apos;&#x0D;&#x0A;- Original project: &apos;B21dJPA_Pageable&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     delete.jsp&#x0D;&#x0A;     insert.jsp&#x0D;&#x0A;     select.jsp&#x0D;&#x0A;     selectAll.jsp&#x0D;&#x0A;     update.jsp" description="Delete elements" element1="src/main/webapp/WEB-INF/views/select.jsp" element2="src/main/webapp/WEB-INF/views/delete.jsp" element3="src/main/webapp/WEB-INF/views/insert.jsp" element4="src/main/webapp/WEB-INF/views/selectAll.jsp" element5="src/main/webapp/WEB-INF/views/update.jsp" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1750840269612" subPackages="false" version="1.0"/>
-</session>

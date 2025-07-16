@@ -2,16 +2,33 @@
 <section name="Workbench">
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<section name="java.lang.Class">
-		<item key="replaceBarOpen" value="true"/>
+		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
-			<item value="memberService"/>
-			<item value="memberRepository"/>
-			<item value="notebook"/>
-			<item value="BoardDTO"/>
-			<item value="orinalFileName"/>
-			<item value="rename"/>
+			<item value="arch"/>
+			<item value="게"/>
+			<item value="idx"/>
+			<item value="admin"/>
+			<item value="adm"/>
+			<item value="dao"/>
+			<item value="listPage"/>
+			<item value="listPa"/>
+			<item value="ARCHIVEID"/>
+			<item value="Id"/>
+			<item value="DB에서"/>
+			<item value="dao.listpage"/>
+			<item value="dao.write"/>
+			<item value="com.edu.springboot.jdbc.IBoardService"/>
+			<item value="NAME"/>
 		</list>
 		<list key="replacehistory">
+			<item value="DOC_ARCH"/>
+			<item value="ARCHIVEID"/>
+			<item value="archivetitle"/>
+			<item value="archiveid"/>
+			<item value="ARCHIVETITLE"/>
+			<item value="ARCHIVEIDTITLE"/>
+			<item value="ARCHIVEIDTITL"/>
+			<item value="ARCHIVE"/>
 			<item value="boardService"/>
 			<item value="boardRepository"/>
 			<item value="MVCBoardDTO"/>
