@@ -44,8 +44,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	    INSERT INTO DOC_ARCH (
 	        ARCH_TYPE, ARCH_TITLE, ARCH_CTNT,
 	        UDT_DT, UDT_TM, UDT_USER_ID,
-	        REG_DT, REG_TM, REG_USER_ID)
-	    VALUES (
+	        REG_DT, REG_TM, REG_USER_ID
+	      
+    )
+    VALUES (
 	        #{archType, jdbcType=CHAR},
 	        #{archTitle, jdbcType=VARCHAR},
 	        #{archCtnt, jdbcType=VARCHAR},
@@ -55,12 +57,18 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	        #{regDt, jdbcType=CHAR},
 	        #{regTm, jdbcType=CHAR},
 	        #{regUserId, jdbcType=VARCHAR}
+
 	    )
 	</insert>
 		
 	<select id="view" resultType="com.edu.springboot.jdbc.BoardDTO"
 		parameterType="com.edu.springboot.jdbc.BoardDTO">
-		SELECT * FROM DOC_ARCH WHERE ARCH_ID    =#{archId}	
+	    SELECT ARCH_ID, ARCH_TYPE, ARCH_TITLE, ARCH_CTNT,
+	           UDT_DT, UDT_TM, UDT_USER_ID,
+	           REG_DT, REG_TM, REG_USER_ID
+	       
+	    FROM DOC_ARCH
+	    WHERE ARCH_ID = #{archId}
 	</select>
 	
    <update id="edit" parameterType="com.edu.springboot.jdbc.BoardDTO">

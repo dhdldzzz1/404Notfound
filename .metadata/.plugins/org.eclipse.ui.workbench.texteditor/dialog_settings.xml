@@ -4,6 +4,10 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="mul"/>
+			<item value="String up"/>
+			<item value="post"/>
+			<item value="method"/>
 			<item value="arch"/>
 			<item value="게"/>
 			<item value="idx"/>
@@ -15,10 +19,6 @@
 			<item value="ARCHIVEID"/>
 			<item value="Id"/>
 			<item value="DB에서"/>
-			<item value="dao.listpage"/>
-			<item value="dao.write"/>
-			<item value="com.edu.springboot.jdbc.IBoardService"/>
-			<item value="NAME"/>
 		</list>
 		<list key="replacehistory">
 			<item value="DOC_ARCH"/>

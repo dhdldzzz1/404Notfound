@@ -6,6 +6,8 @@
 <head>
     <meta charset="UTF-8">
     <title>게시판수정</title>
+    <link rel="stylesheet" href="<c:url value="/css/edit.css"/>">  
+    
     <script type="text/javascript">
     function validateForm(form) { 
         if (form.regUserId.value.trim() === "") {
@@ -27,30 +29,30 @@
     </script>
 </head>
 <body>
-    <h2>게시판 수정(Mybatis)</h2>
+    <h2>게시판 수정</h2>
     <form name="writeFrm" method="post" action="./edit.do" onsubmit="return validateForm(this);">
         <!-- 수정할 게시물의 ID -->
         <input type="hidden" name="archId" value="${boardDTO.archId}" />
         
-        <table border="1" width="90%">
+        <table border="1" >
             <tr>
                 <td>작성자</td>
                 <td>
-                    <input type="text" name="regUserId" style="width:150px;" 
+                    <input type="text" name="regUserId" 
                         value="${boardDTO.regUserId}" />
                 </td>
             </tr>
             <tr>
                 <td>제목</td>
                 <td>
-                    <input type="text" name="archTitle" style="width:90%;" 
+                    <input type="text" name="archTitle" 
                         value="${boardDTO.archTitle}" />
                 </td>
             </tr>
             <tr>
                 <td>내용</td>
                 <td>
-                    <textarea name="archCtnt" style="width:90%; height:100px;">${boardDTO.archCtnt}</textarea>
+                    <textarea name="archCtnt" >${boardDTO.archCtnt}</textarea>
                 </td>
             </tr>
             <tr>

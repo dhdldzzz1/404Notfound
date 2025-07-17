@@ -8,11 +8,12 @@
     <title>Mybatis게시판</title>
 </head>
 	<body>
+    <link rel="stylesheet" href="<c:url value="/css/list.css"/>">
 	<h2>문서보관함</h2>
 	<form method="get">
-	<table border="1" width="90%">
+	<table width="90%">
 	<tr>
-	    <td>
+	     <td style="text-align: left;" > 
 	        <select name="searchField">
 	            <option value="ARCH_ID">번호</option>
 	            <option value="ARCH_TITLE">제목</option>
@@ -21,13 +22,17 @@
 	            <option value="REG_DT">작성일</option>
 	        </select>
 	        <input type="text" name="searchKeyword" />
-	        <input type="submit" value="검색하기" />
-	    </td>
+	        <input type="submit" value="검색하기" class="search-button" />
+	     
+	   </td>
+
+	    
+	    
 	</tr>
 	</table>      
 	</form>
 	
-	<table border="1" width="90%">
+	<table width="90%">
 	    <tr>
 	        <th width="10%">번호</th>
 	        <th width="*">제목</th>
@@ -62,14 +67,14 @@
 	    </c:otherwise>    
 	</c:choose>
 	</table>
-	
-	<table border="1" width="90%">
-	    <tr align="center">
-	        <td>
-	            ${pagingImg}
+		
+	<table width="90%" class="pagination-table">
+	<tr>
+	    <td> ${pagingImg}
 	        </td>
-	        <td width="100"><button type="button"
-	            onclick="location.href='./write.do';">글쓰기</button>
+	        <td style="text-align: right;"><button type="button"
+	            onclick="location.href='./write.do';"
+	            class="write-button">글쓰기</button>
 	        </td>
 	        </tr>
 	      </table>

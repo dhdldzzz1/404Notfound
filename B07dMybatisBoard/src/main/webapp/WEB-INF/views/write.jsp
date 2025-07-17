@@ -1,10 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
+    
     <title>글쓰기</title>
+    <link rel="stylesheet" href="<c:url value="/css/write.css"/>">    
+    
     <script>
     let validateForm = (frm) => {
         if(frm.regUserId.value.trim() === ''){
@@ -33,6 +37,7 @@
 </head>
 <body>
     <h2>자료올리기</h2>
+    
     <form name="writeFrm" method="post" action="./write.do" onsubmit="return validateForm(this);">
         <table border="1" width="90%">
             <tr>
@@ -48,7 +53,8 @@
                         <option value="20">기내서비스</option>
                         <option value="30">안전교육</option>
                     </select>
-                </td>
+                 
+	           </td>
             </tr>
             <tr>
                 <td>제목</td>

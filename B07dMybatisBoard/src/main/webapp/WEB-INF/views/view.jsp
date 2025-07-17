@@ -1,10 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="jakarta.tags.core"%>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>내용 보기</title>
+    <link rel="stylesheet" href="<c:url value="/css/view.css"/>">  
     <script>
     function deletePost(archId){
         var confirmed = confirm("정말로 삭제하겠습니까?");
@@ -22,7 +24,7 @@
     </script>
 </head>
 <body>
-    <h2>게시판 읽기(Mybatis)</h2>    
+    <h2>문서내용</h2>    
     <form name="writeFrm">
         <!-- 파라미터명은 archId로 맞추기 -->
         <input type="hidden" name="archId" value="${boardDTO.archId}" />
@@ -30,8 +32,12 @@
 
     <table border="1" width="90%">
         <colgroup>
-            <col width="15%"/> <col width="35%"/>
-            <col width="15%"/> <col width="*"/>
+            <col width="15%"/> 
+            <col width="35%"/>
+            <col width="15%"/> 
+            <col width="15%"/> 
+            
+            <col width="*"/>
         </colgroup>    
         <!-- 게시글 정보 -->
         <tr>
@@ -39,15 +45,18 @@
             <td>작성자</td> <td>${boardDTO.regUserId}</td>
         </tr>
         <tr>
-            <td>작성일</td> <td>${boardDTO.regDt} ${boardDTO.regTm}</td>
+            <td>작성일</td> 
+            <td>${boardDTO.regDt} ${boardDTO.regTm}</td>
             <td>수정일</td> <td>${boardDTO.udtDt} ${boardDTO.udtTm}</td>
         </tr>
         <tr>
             <td>제목</td>
             <td colspan="3">${boardDTO.archTitle}</td>
+
+            
         </tr>
         <tr>
-            <td>내용</td>
+            <td align="center">내용</td>
             <td colspan="3" height="100">${boardDTO.archCtnt}</td>
         </tr>
 

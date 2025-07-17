@@ -15,4 +15,5 @@ public class BoardDTO
     private String regDt;        // 등록 일자 (YYYYMMDD)
     private String regTm;        // 등록 시각 (HHMISS)
     private String regUserId;    // 등록 사용자 ID
+
 }

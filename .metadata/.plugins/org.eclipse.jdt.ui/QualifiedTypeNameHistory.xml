@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="myjpa2.Member2"/>
-    <fullyQualifiedTypeName name="myjpa3.Member3"/>
-    <fullyQualifiedTypeName name="java.awt.datatransfer.SystemFlavorMap"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.TypedQuery"/>
-    <fullyQualifiedTypeName name="myjpa4.Member4"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
@@ -36,7 +31,6 @@
     <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
     <fullyQualifiedTypeName name="com.edu.springboot.jpa.Member"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="jakarta.persistence.PrePersist"/>
@@ -51,7 +45,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="jdk.internal.classfile.impl.BufferedFieldBuilder.Model"/>
     <fullyQualifiedTypeName name="jdk.internal.classfile.impl.BufferedMethodBuilder.Model"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.ssl.SslProperties.Bundles.Watch.File"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.edu.springboot.jdbc.IBoardService"/>
+    <fullyQualifiedTypeName name="com.edu.springboot.jdbc.BoardDTO"/>
 </qualifiedTypeNameHistroy>

@@ -41,6 +41,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\jhs\Desktop\Air-master"/>
 			<item value="C:\Devdata\404not_won\B10aFileUpload"/>
 			<item value="C:\Devdata\404not_won\AIR_GWS_WON"/>
 			<item value="C:\Devdata\404not_won\B10bFileUploadJDBC"/>
@@ -58,7 +59,7 @@
 			<item value="C:\DevData\Project404_KHS\404NotFound"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="110"/>
+			<item key="DIALOG_X_ORIGIN" value="-17"/>
 			<item key="DIALOG_Y_ORIGIN" value="167"/>
 			<item key="DIALOG_WIDTH" value="888"/>
 			<item key="DIALOG_HEIGHT" value="629"/>
