@@ -4,6 +4,9 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="list."/>
+			<item value="list"/>
+			<item value="list.do"/>
 			<item value="mul"/>
 			<item value="String up"/>
 			<item value="post"/>
@@ -16,9 +19,6 @@
 			<item value="dao"/>
 			<item value="listPage"/>
 			<item value="listPa"/>
-			<item value="ARCHIVEID"/>
-			<item value="Id"/>
-			<item value="DB에서"/>
 		</list>
 		<list key="replacehistory">
 			<item value="DOC_ARCH"/>

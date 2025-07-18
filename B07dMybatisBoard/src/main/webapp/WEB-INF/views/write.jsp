@@ -42,7 +42,7 @@
         <table border="1" width="90%">
             <tr>
                 <td>작성자</td>
-                <td><input type="text" name="regUserId" style="width:150px;" /></td>
+                <td><input type="text" name="regUserId" style="width:100%;" /></td>
             </tr>
             <tr>
                 <td>자료 구분</td>
@@ -58,11 +58,11 @@
             </tr>
             <tr>
                 <td>제목</td>
-                <td><input type="text" name="archTitle" style="width:90%;" /></td>
+                <td><input type="text" name="archTitle" style="width:100%;" /></td>
             </tr>
             <tr>
                 <td>내용</td>
-                <td><textarea name="archCtnt" style="width:90%;height:100px;"></textarea></td>
+                <td><textarea name="archCtnt" style="width:100%;height:100px;"></textarea></td>
             </tr>
             <tr>
                 <td colspan="2" align="center">

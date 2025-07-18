@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.edu.springboot.jdbc.ICustHdlgService">
+
+    <!-- 전체 글 수 조회 -->
+    <select id="getTotalCount" resultType="int"
+            parameterType="com.edu.springboot.jdbc.ParameterDTO">
+        SELECT COUNT(*) FROM CUST_HDLG
+        <if test="searchKeyword != null and !searchKeyword.equals('')">
+            WHERE ${searchField} LIKE '%' || #{searchKeyword} || '%'
+        </if>
+    </select>
+
+    <!-- 페이징 목록 조회 -->
+    <select id="listPage" resultType="com.edu.springboot.jdbc.CustHdlgDTO"
+            parameterType="com.edu.springboot.jdbc.ParameterDTO">
+        SELECT * FROM (
+            SELECT Tb.*, rownum rNum FROM (
+                SELECT * FROM CUST_HDLG
+                <if test="searchKeyword != null and !searchKeyword.equals('')">
+                    WHERE ${searchField} LIKE '%' || #{searchKeyword} || '%'
+                </if>
+                ORDER BY CUST_POST_ID DESC
+            ) Tb
+        )
+        WHERE rNum <![CDATA[>=]]> #{start} AND rNum <![CDATA[<=]]> #{end}
+    </select>
+
+    <!-- 단건 조회 -->
+    <select id="view" resultType="com.edu.springboot.jdbc.CustHdlgDTO"
+            parameterType="com.edu.springboot.jdbc.CustHdlgDTO">
+        SELECT 
+            CUST_POST_ID, CUST_ID, OCUR_DTTM, LOC, TITLE, CTNT,
+            IS_REQ_RSPN, IS_URGT, IS_DEL,
+            UDT_DT, UDT_TM, UDT_USER_ID,
+            REG_DT, REG_TM, REG_USER_ID
+        FROM CUST_HDLG
+        WHERE CUST_POST_ID = #{custPostId}
+    </select>
+
+    <!-- 등록 -->
+    <insert id="write" parameterType="com.edu.springboot.jdbc.CustHdlgDTO">
+        INSERT INTO CUST_HDLG (
+            CUST_ID, OCUR_DTTM, LOC, TITLE, CTNT,
+            IS_REQ_RSPN, IS_URGT, IS_DEL,
+            UDT_DT, UDT_TM, UDT_USER_ID,
+            REG_DT, REG_TM, REG_USER_ID
+        ) VALUES (
+            #{custId}, #{ocurDttm}, #{loc}, #{title}, #{ctnt},
+            #{isReqRspn}, #{isUrgt}, #{isDel},
+            #{udtDt}, #{udtTm}, #{udtUserId},
+            #{regDt}, #{regTm}, #{regUserId}
+        )
+    </insert>
+
+    <!-- 수정 -->
+    <update id="edit" parameterType="com.edu.springboot.jdbc.CustHdlgDTO">
+        UPDATE CUST_HDLG SET
+            TITLE = #{title},
+            CTNT = #{ctnt},
+            IS_REQ_RSPN = #{isReqRspn},
+            IS_URGT = #{isUrgt},
+            IS_DEL = #{isDel},
+            UDT_DT = TO_CHAR(SYSDATE, 'YYYYMMDD'),
+            UDT_TM = TO_CHAR(SYSDATE, 'HH24MISS'),
+            UDT_USER_ID = #{udtUserId}
+        WHERE CUST_POST_ID = #{custPostId}
+    </update>
+
+    <!-- 삭제 -->
+    <delete id="delete" parameterType="int">
+        DELETE FROM CUST_HDLG WHERE CUST_POST_ID = #{custPostId}
+    </delete>
+
+</mapper>
